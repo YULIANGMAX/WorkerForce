@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">咱们工人有力量</string>
+    <string name="message">任务数 %1$d，等待中 %2$d，工人数 %3$d，工作中 %4$d，闲置中 %5$d</string>
+</resources>

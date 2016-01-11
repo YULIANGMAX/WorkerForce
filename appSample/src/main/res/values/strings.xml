@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LibWorkerForce Sample</string>
+    <string name="message">Tasks %1$d，Waiting %2$d，Workers %3$d，Busy %4$d，Idle %5$d</string>
+</resources>

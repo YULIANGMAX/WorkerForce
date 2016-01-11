@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Task" />
+
+        <Button
+            android:id="@+id/btn_Task_Add1"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/btn_Task_Add2"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="+2" />
+
+        <Button
+            android:id="@+id/btn_Task_Add5"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="+5" />
+
+        <Button
+            android:id="@+id/btn_Task_Add10"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="+10" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Worker" />
+
+        <Button
+            android:id="@+id/btn_Worker_Add1"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/btn_Worker_Sub1"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="-1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Foreman" />
+        <Button
+            android:id="@+id/btn_New"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="New" />
+
+        <Button
+            android:id="@+id/btn_Go"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="Go!!!" />
+
+        <Button
+            android:id="@+id/btn_Clear"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="Clear" />
+        <Button
+            android:id="@+id/btn_KnockOff"
+            style="@style/Button"
+            android:layout_weight="1"
+            android:text="Knock Off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="@string/message" />
+
+    <ListView
+        android:id="@+id/lv_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#cccccc"
+        android:dividerHeight="0.6dip"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>
